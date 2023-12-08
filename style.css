@@ -1,0 +1,48 @@
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    background-image: url('images/login-bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+   
+}
+.center-content{
+    padding-top: 10%;
+   width: 50%;
+  margin:auto;
+}
+.center-content h1{
+    font-family: 'Alkatra', cursive;
+    font-size:65px
+}
+
+.btn-signin{
+    background:#009b3a
+}
+.btn-signin .btn:hover{
+    background:#018732
+}
+@media (max-width: 552px) {
+    .center-content{
+     width: 80%;
+    }
+  }
+
+
+
+
+
+
+  @media (min-width: 553px) and (max-width:772px) {
+    .center-content{
+     width: 70%;
+    }
+  }
