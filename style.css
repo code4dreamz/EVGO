@@ -30,18 +30,16 @@ body{
 .btn-signin .btn:hover{
     background:#018732
 }
+
+
+/*-------------media queries------------- */
 @media (max-width: 552px) {
     .center-content{
      width: 80%;
     }
   }
 
-
-
-
-
-
-  @media (min-width: 553px) and (max-width:772px) {
+@media (min-width: 553px) and (max-width:772px) {
     .center-content{
      width: 70%;
     }
