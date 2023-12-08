@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+
+a{
+    text-decoration: none;
+}
+.color{
+    color: green;
+}
+.carousel-inner{
+    height: 280px;
+}
+.carousel-inner img{
+    height: 280px;
+}
+.tagline{
+    background-color:#fcecd3
+}
+.border_color{
+    color: green;
+    border:2px solid
+}
+.list-items{
+    display:flex;border-radius:13px;
+}
+
+.bottom-margin{
+    margin-bottom: 20px;
+}
+
+.navbar{
+    position:fixed;
+    bottom:0;
+    background:white;
+    border-top:2px solid green;
+    height:60px;
+    width: 100%;
+}
