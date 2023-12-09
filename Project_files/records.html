@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Records</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="stylesite.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+
+
+    <div class="row bg-color text-white">
+        <div class="col-sm-4 col-lg-5 col-4 mt-2">
+            <a href="my.html"><i class="fa-solid fa-angle-left mt-1 text-white" style="float:left"></i> &nbsp;<span class="text-white">Back</span></a>
+        </div>
+
+        <div class="col-sm-8 col-lg-7 mt-2 col-8 text-start">
+         <p>Records</p>
+        </div>
+    </div>
+
+    <div class="row mt-3">
+        <div class="col-sm-4 col-4 text-center color">
+            <p class="daily_income_button" style="font-size:14px">Daily Income</p>
+            <div style="height: 2px;" class="bg-color" id="daily_income_line"></div>
+
+        </div>
+        
+        
+        <div class="col-sm-4 col-4 text-center color">
+            <p class="recharge_button" style="font-size:14px">Recharge</p>
+            <div style="height: 2px; display: none;" class="bg-color" id="recharge_line"></div>
+
+        </div>
+        
+        
+        <div class="col-sm-4 col-4 text-center color">
+            <p id="withdraw_button" style="font-size:14px">Withdraw</p>
+            <div style="height: 2px; display: none;" class="bg-color" id="withdraw_line"></div>
+        </div>
+    </div>
+
+
+   
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script>
+        $(document).ready(function () {
+            $("#withdraw_button").on("click", function (e) {
+                e.preventDefault();
+                $("#withdraw").show();
+                $("#recharge").hide();
+                $("#recharge_line").hide();
+                $("#withdraw_line").show();
+                $("#daily_income").hide();
+                $("#daily_income_line").hide();
+            });
+
+            $(".recharge_button").on("click", function (d) {
+                d.preventDefault();
+                $("#recharge").show();
+                $("#withdraw").hide();
+                $("#recharge_line").show();
+                $("#withdraw_line").hide();
+                $("#daily_income").hide();
+                $("#daily_income_line").hide();
+            });
+
+
+            $(".daily_income_button").on("click", function (d) {
+                d.preventDefault();
+                $("#recharge").hide();
+                $("#withdraw").hide();
+                $("#recharge_line").hide();
+                $("#withdraw_line").hide();
+                $("#daily_income").show();
+                $("#daily_income_line").show();
+            });
+        });
+    </script>
+
+
+
+
+
+
+
+
+</body>
+
+</html>
