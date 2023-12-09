@@ -4,6 +4,11 @@
     box-sizing: border-box;
     overflow-x: hidden;
     overflow-y: auto;
+   
+}
+.bg-color{
+    background: #009b3a;
+
 }
 
 
@@ -43,3 +48,33 @@ a{
     height:60px;
     width: 100%;
 }
+
+/* -------------------my------------------------------------ */
+
+
+.text-size{
+    font-size: 12px !important;
+}
+
+/* section2 */
+
+.border4s2{
+    border-radius:5px;
+     border:2px solid #009b3a;
+}
+
+.white-line{
+    height: 1px;
+    background: white;
+}
+
+
+/* section-4  menus*/
+.mb-5 {
+    margin-bottom: 4rem!important;
+}
+.green-line{
+    height: 1px;
+    background: green;
+}
+
