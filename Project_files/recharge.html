@@ -20,7 +20,7 @@
 </head>
 
 <body>
-<!-- -----------------topbar--------------------- -->
+    <!-- -----------------topbar--------------------- -->
 
     <div class="row pt-2 bg-color text-white mx-0">
         <div class="col-sm-4 col-lg-4 col-4">
@@ -33,8 +33,7 @@
             <p>Recharge</p>
         </div>
         <div class="col-sm-4 col-lg-4  col-4 text-end">
-            <p><a class="text-white"
-                    href="">Record</a></p>
+            <p><a class="text-white" href="recharge-record.html">Record</a></p>
         </div>
     </div>
 
@@ -44,7 +43,7 @@
 
     <!-- ------------------------------------------------------------- -->
 
-    <form class="bg-color pt-4" action="" method="post">
+    <form class="bg-color pt-4" action="recharge.html" method="post">
         <center>
             <div>
                 <h3 class="fw-medium text-white overflow-hidden">
@@ -69,16 +68,19 @@
                 </p>
             </div>
         </div>
+    </form>
 
-        <!-- -----------------Bank------------------ -->
+    <!-- -----------------Bank------------------ -->
 
+    <div>
+        <h5 class="color text-center mt-3 w-100">
+            <span id="bank">Bank</span>
+            <div id="bank_line" class="w-100 background_color mt-1" style="height:2px;"></div>
+        </h5>
+    </div>
+
+    <form action="">
         <div class="bg-white">
-            <div>
-                <h5 class="color text-center mt-3 w-100">
-                    <span id="bank">Bank</span>
-                    <div id="bank_line" class="w-100 background_color mt-1" style="height:2px;"></div>
-                </h5>
-            </div>
 
             <div class="container" id="bank_form">
                 <input type="hidden" id="type2" name="type2" value="BANK">
@@ -89,7 +91,7 @@
                         placeholder="Please enter amount">
 
                 </div>
-                <div  class="color fw-medium">Recharge Method</div><br>
+                <div class="color fw-medium">Recharge Method</div><br>
 
                 <div class="row">
 
@@ -113,7 +115,7 @@
                             2
                         </div>
                         <div class="col-sm-2 col-2">
-                            <input type="radio" required="" name="upi" value="abhunav678@ybl"
+                            <input type="radio" required="" name="upi" value="code4dreamz123@ybl"
                                 style="width: 20px;height: 15px;">
                         </div>
                     </label><br>
@@ -135,7 +137,11 @@
             </div>
         </div>
 
+
     </form>
+
+
+
 
 
 
