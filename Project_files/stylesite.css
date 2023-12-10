@@ -89,11 +89,16 @@ a{
 
 
 
-/* ---------------prodcut------
+/* ---------------product------
  */
 
  .modal-font{
     font-size:small;
+ }
+
+ /* ------------team-------------- */
+ .row-font{
+    font-size: small;
  }
 
 
